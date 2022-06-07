@@ -1,0 +1,49 @@
+
+/* Start List-Todo */
+.task {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 2px solid black;
+  margin: 0 20px;
+}
+.task .title-icon-check {
+  padding: 0 15px 0 0;
+  color: #08f557;
+}
+.task .title-icon-close {
+  padding: 0 0 0 2px;
+}
+/* End Desciption */
+
+
+/* Start input */
+.input-gr {
+  display: flex;
+  border-bottom: 3px solid black;
+  padding: 20px 0;
+  justify-content: space-around;
+  /* border: 1px solid black; */
+  align-items: center;
+}
+
+.input input {
+  margin: 10px 0 10px 10px;
+  height: 45px;
+  width: 390px;
+  border-radius: 10px;
+  border: 2px solid #35aaf8;
+  padding: 0 0 0 10px;
+}
+.input input:hover
+ {
+  cursor: pointer;
+}
+.button-input-plus {
+  font-size: 40px;
+  padding-right: 10px;
+}
+.button-pluss .button-input-plus:hover {
+cursor: pointer;
+}
+/* End Input */
